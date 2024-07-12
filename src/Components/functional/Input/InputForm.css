@@ -1,0 +1,9 @@
+input{
+    height: 20px;
+    width: 100px;
+}
+.create-btn{
+    border-radius: 20px;
+  width: 100%;
+  background: linear-gradient(rgba(79, 55, 235, 0.58), rgba(79, 55, 235, 0.58));
+}

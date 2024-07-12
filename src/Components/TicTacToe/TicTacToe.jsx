@@ -22,12 +22,6 @@ export const TicTacToe = () => {
     let box_array=[box1,box2,box3,box4,box5,box6,box7,box8,box9];
 
 
-
-
-
-
-
-
     const toggle = (e, num) => {
         if (lock) {
             return 0;
@@ -108,3 +102,5 @@ export const TicTacToe = () => {
         </div>
     );
 };
+
+export default TicTacToe;
