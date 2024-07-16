@@ -1,0 +1,51 @@
+.create-room {
+  background-image: url(./Assets/img/tic.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background: linear-gradient(to right, #6a11cb, #2575fc); */
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .create-room h2 {
+    border: 5px dotted ;
+    background-color: rgb(125, 28, 160);
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .create-room input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .create-room input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-room button {
+    background-color: #fff;
+    color: #6a11cb;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-room button:hover {
+    background-color: #f0f0f0;
+  }
+  

@@ -1,9 +1,36 @@
-.container{
+
+.main-body{
+    background-image: url(../Assets/img/tic.jpg);
     text-align: center;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
 
+}
 
-}.title{
-    margin-top: 50px;
+.main-body-2{
+    text-align: center;
+    /* height: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 90%;
+    width: 80%;
+   /* From https://css.glass */
+background: rgba(31, 53, 64, 0.39);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.4px);
+-webkit-backdrop-filter: blur(4.4px);
+border: 1px solid rgba(31, 53, 64, 0.39);
+
+}
+.title{
+    /* margin-top: 50px; */
     color: white;
     font-size: 60px;
     display: flex;
@@ -12,36 +39,39 @@
 
 }
 .reset{
-    width: 250px;
-    height: 100px;
+    width: 20svh;
+    height: 10svh;
     border: none;
     outline: none;
     cursor: pointer;
     border-radius: 50px;
-    background-color:#1f3540;
+    background: linear-gradient(rgba(174, 70, 212, 0.3), rgba(174, 70, 212, 1));
     font-size: 26px;
-    color: #E49BFF;
+    color: #ffffff;
     margin-top: 25px;
     margin-bottom: 50px;
 
 }
 .boxes{
     display: flex;
-    height: 180px;
-    width: 180px;
+    height: 17vh;
+    width: 17vh;
     background:#1f3540;
     border: 4px solid #0f1b21;
     border-radius: 12 solid;
     cursor: pointer;
 }
 .board{
-    height:600px;
+    height:50vh;
     width: 564px;
     display: flex;
-    margin: auto;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto; */
 }
 .boxes img{
-    margin: 50px 50px;
+    
+    margin: 25px 25px;
 }
 
 .title img{
