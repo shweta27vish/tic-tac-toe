@@ -1,11 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
 
-import { TicTacToe } from './Components/TicTacToe/TicTacToe';
-import Home from './Components/Home';
 import Create from './Components/Create';
+import Home from './Components/Home';
 import Join from './Components/Join';
+import { TicTacToe } from './Components/TicTacToe/TicTacToe';
 
 function App() {
   return (
